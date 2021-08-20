@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.7.3"
 
-gem "rails", path: '/Users/dbo/code/db0sch/rails'
+gem "rails", git: 'git@github.com:rails/rails.git', branch: "replace-webpack-with-importmapped-hotwire-as-default-js"
 
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
