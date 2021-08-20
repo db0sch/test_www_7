@@ -4,6 +4,8 @@ Rails.application.config.importmap.draw do
   pin "@hotwired/stimulus", to: "stimulus.js"
   pin "@hotwired/stimulus-importmap-autoloader", to: "stimulus-importmap-autoloader.js"
   pin_all_from "app/javascript/controllers", under: "controllers"
+  pin "@popperjs/core", to: "https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/esm/popper.js"
+  pin "bootstrap", to: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.esm.js"
 
   pin "application"
 
