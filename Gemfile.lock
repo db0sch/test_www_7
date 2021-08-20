@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:rails/rails.git
+  remote: git://github.com/rails/rails.git
   revision: e53ce220ba21d04bcdc821fb59d8e8bf717b1dd9
   branch: replace-webpack-with-importmapped-hotwire-as-default-js
   specs:
