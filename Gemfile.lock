@@ -1,15 +1,7 @@
 GIT
-  remote: https://github.com/rails/web-console.git
-  revision: 91eed5a56ca20d34f176ddec2acfedece7eff8e1
-  specs:
-    web-console (4.1.0)
-      actionview (>= 6.0.0)
-      activemodel (>= 6.0.0)
-      bindex (>= 0.4.0)
-      railties (>= 6.0.0)
-
-PATH
-  remote: /Users/dbo/code/db0sch/rails
+  remote: git@github.com:rails/rails.git
+  revision: e53ce220ba21d04bcdc821fb59d8e8bf717b1dd9
+  branch: replace-webpack-with-importmapped-hotwire-as-default-js
   specs:
     actioncable (7.0.0.alpha)
       actionpack (= 7.0.0.alpha)
@@ -91,6 +83,16 @@ PATH
       method_source
       rake (>= 0.13)
       thor (~> 1.0)
+
+GIT
+  remote: https://github.com/rails/web-console.git
+  revision: 91eed5a56ca20d34f176ddec2acfedece7eff8e1
+  specs:
+    web-console (4.1.0)
+      actionview (>= 6.0.0)
+      activemodel (>= 6.0.0)
+      bindex (>= 0.4.0)
+      railties (>= 6.0.0)
 
 GEM
   remote: https://rubygems.org/
